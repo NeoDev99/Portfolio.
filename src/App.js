@@ -1,5 +1,5 @@
-import React from 'react';
-import "./App.css";
+import './App.css';
+import React, { useState } from 'react';
 import Header from './components/header/Header';
 import Home from './components/home/Home';
 import About from './components/about/About';
@@ -10,20 +10,26 @@ import Qualification from './components/qualification/Qualification';
 import Contact from './components/contact/Contact';
 
 const App = () => {
-  return (
-    <>
-    <Header />
+  const [darkTheme, setDarkTheme] = useState(false);
 
-    <main className='main'>
-      <Home />
-      <About />
-      <Skills />
-      <Services />
-      <Qualification />
-      {/*<Testimonials />*/}
-      <Contact />
-    </main>
-    </>
+  const toggleDarkTheme = () => {
+    setDarkTheme((prevDarkTheme) => !prevDarkTheme);
+  };
+
+  return (
+    <div className={`app ${darkTheme ? 'dark-theme' : ''}`}>
+      <Header toggleDarkTheme={toggleDarkTheme} />
+
+      <main className='main'>
+        <Home darkTheme={darkTheme} />
+        <About />
+        <Skills />
+        <Services />
+        <Qualification />
+        {/*<Testimonials />*/}
+        <Contact />
+      </main>
+    </div>
   )
 }
 

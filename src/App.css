@@ -13,6 +13,7 @@
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
+  
   --container-color: #fff;
 
   /*========== Font and typography ==========*/
@@ -115,7 +116,7 @@ img {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 6rem 0 2rem;
+  padding: 4rem 0 2rem;
 }
 
 .section__title {
@@ -157,7 +158,7 @@ img {
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  background-color: #0f969c;
 }
 
 .button__icon {
@@ -168,6 +169,27 @@ img {
   display: inline-flex;
   align-items: center;
 }
+
+
+/*=============== DARK THEME STYLES ===============*/
+.dark-theme .button {
+  background-color: #fff;
+  color: #000;
+}
+
+.dark-theme .button__icon {
+  color: #000;
+}
+
+.dark-theme h2 {
+  color: #0f969c;
+}
+
+.dark-theme input,
+.dark-theme textarea {
+  background-color: #ccc;
+}
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */

@@ -52,6 +52,27 @@
     color: #C8B7FD;
 }
 
+
+/*=============== DARK THEME STYLES ===============*/
+.dark-theme .skills__content {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #00000015;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+}
+
+.dark-theme .skills .bx-badge-check,
+.dark-theme .skills__level {
+    color: #ccc;
+}
+
+.dark-theme .skills__title {
+    color: #fff;
+}
+.dark-theme .skills__name {
+    color: #33ccff;
+}
+
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {

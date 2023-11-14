@@ -4,7 +4,14 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
+    color: var(--title-color);
     background-color: var(--body-color);
+}
+
+.theme-toggle {
+    font-weight: var(--small-font-size);
+    font-size: large;
+    cursor: pointer;
 }
 
 .nav {
@@ -38,8 +45,13 @@
     flex-direction: column;
     align-items: center;
     font-size: var(--small-font-size);
-    color: var(--title-color);
+    color: var(--title-hover-light);
     font-weight: var(--font-medium); 
+}
+
+.active-link,
+.nav__link:hover {
+    color: #0f969c;
 }
 
 .nav__icon,
@@ -48,11 +60,27 @@
     display: none;
 }
 
-/* Active link */
-.active-link,
-.nav__link:hover {
-    color: var(--title-color-dark);
+
+/*=============== DARK THEME STYLES ===============*/
+.dark-theme {
+    background-color: #333; /* Dark theme background color */
+    color: #fff; /* Dark theme text color */
 }
+
+.dark-theme .nav__link {
+    color: #fff; /* Dark theme link color */
+}
+
+.dark-theme .active-link,
+.dark-theme .nav__link:hover {
+    color: #0f969c;
+}
+
+.dark-theme .nav__logo,
+.dark-theme .nav__toggle {
+    color: var(--text-color-light);
+}
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For medium devices */
@@ -146,5 +174,10 @@
 
     .nav__list {
         column-gap: 0;
+    }
+        
+    .dark-theme .nav__logo,
+    .dark-theme .nav__toggle {
+        color: #fff;
     }
 }

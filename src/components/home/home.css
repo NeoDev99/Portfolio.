@@ -21,7 +21,7 @@
 }
 
 .home__social-icon:hover {
-    color: var(--title-color-dark);
+    color: #0f969c;
 }
 
 .home__title {
@@ -41,6 +41,7 @@
     padding-left: 5.4rem;
     font-weight: var(--font-normal);
     margin-bottom: var(--mb-1);
+    color: #0f969c;
 }
 
 .home__subtitle::before {
@@ -114,6 +115,25 @@
     font-size: 1.25rem;
     color: var(--title-color);
 }
+
+
+/*=============== DARK THEME STYLES ===============*/
+.dark-theme .home__title {
+    color: #fff;
+}
+
+.dark-theme .home__social-icon {
+    color: #fff;
+}
+
+.dark-theme .home__social-icon:hover {
+    color: #0f969c;
+}
+
+.dark-theme .home__description {
+    color: #ccc;
+}
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */

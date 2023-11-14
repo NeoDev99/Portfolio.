@@ -60,6 +60,12 @@
     margin-bottom: var(--mb-1);
 }
 
+.qualification__sub-title {
+    font-size: var(--small-font-size);
+    font-weight: 400;
+    color: #0f969c;
+}
+
 .qualification__calender {
     font-size: var(--small-font-size);
 }
@@ -68,7 +74,7 @@
     display: inline-block;
     width: 13px;
     height: 13px;
-    background-color: var(--text-color);
+    background-color: #0f969c;
     border-radius: 50%;
 }
 
@@ -76,9 +82,30 @@
     display: block;
     width: 1px;
     height: 100%;
-    background-color: var(--text-color);
+    background-color: #0f969c;
     transform: translate(6px, -7px);
 }
+
+
+/*=============== DARK THEME STYLES ===============*/
+.dark-theme .qualification__button {
+    color: #cccccc80;
+}
+
+.dark-theme .qualification__title,
+.dark-theme .qualification__active {
+    color: #fff;
+}
+
+.dark-theme .qualification__button:hover {
+    color: #33ccff;
+}
+
+.dark-theme .qualification__data,
+.dark-theme .qualification__calender {
+    color: #ccc;
+}
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */

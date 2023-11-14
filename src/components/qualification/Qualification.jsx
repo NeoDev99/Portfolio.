@@ -55,8 +55,10 @@ const Qualification = () => {
                     <div className="qualification__data">
                         <div>
                             <h3 className="qualification__title">Matric</h3>
+                            <h4 className="qualification__sub-title">New Horizon College</h4>
+
                             <span className="qualification__subtitle">
-                                New Horizon College
+                                Bethlehem, Free State
                             </span>
 
                             <div className="qualification__calender">
@@ -80,8 +82,10 @@ const Qualification = () => {
 
                         <div>
                             <h3 className="qualification__title">University</h3>
+                            <h4 className="qualification__sub-title">Vaal University of Technology</h4>
+
                             <span className="qualification__subtitle">
-                                Vaal Unviversity of Technology
+                                Vanderbijlpark, Gauteng
                             </span>
 
                             <div className="qualification__calender">
@@ -94,8 +98,10 @@ const Qualification = () => {
                     <div className="qualification__data">
                         <div>
                             <h3 className="qualification__title">Internship</h3>
+                            <h4 className="qualification__sub-title">CapaCiTi Tech Career Accelerator</h4>
+
                             <span className="qualification__subtitle">
-                                CapaCiTi
+                                Braamfontein, Johannesburg
                             </span>
 
                             <div className="qualification__calender">
@@ -109,17 +115,6 @@ const Qualification = () => {
                         </div>
                     </div>
 
-                    <div className="qualification__data">
-                        <div></div>
-
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
-
-                        {/* more education */}
-
-                    </div>
                 </div>
 
                 <div
@@ -132,13 +127,15 @@ const Qualification = () => {
 
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Freelance Web Developer</h3>
+                            <h3 className="qualification__title">Full-Stack Web Developer</h3>
+                            <h4 className="qualification__sub-title">CapaCiTi Tech Career Accelerator</h4>
+
                             <span className="qualification__subtitle">
-                                Vanderbijlpark
+                                Braamfontein, Johannesburg
                             </span>
 
                             <div className="qualification__calender">
-                                <i className="uil uil-calender-alt">2019 - 2022</i>
+                                <i className="uil uil-calender-alt">17 Jan 2023 - 31 Aug 2023</i>
                             </div>
                         </div>
 
@@ -157,27 +154,32 @@ const Qualification = () => {
                         </div>
 
                         <div>
-                            <h3 className="qualification__title">Full-Stack Web Developer</h3>
+                            <h3 className="qualification__title">Data Scientist</h3>
+                            <h4 className="qualification__sub-title">Old Mutual Insure</h4>
+
                             <span className="qualification__subtitle">
-                                CapaCiTi - Braamfontein
+                                Parktown, Johannesburg
                             </span>
 
                             <div className="qualification__calender">
-                                <i className="uil uil-calender-alt">Jan 2023 — Aug 2023</i>
+                                <i className="uil uil-calender-alt">4 Oct 2023 — 30 Nov 2023</i>
                             </div>
                         </div>
 
                     </div>
 
+                    {/* 
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Full-Stack Web Developer</h3>
+                            <h3 className="qualification__title">C# Developer</h3>
+                            <h4 className="qualification__sub-title">Old Mutual</h4>
+
                             <span className="qualification__subtitle">
-                                Old Mutual (Sandton)
+                                Sandton, Johannesburg
                             </span>
 
                             <div className="qualification__calender">
-                                <i className="uil uil-calender-alt">Sept 23 - Dec 23</i>
+                                <i className="uil uil-calender-alt">September 2023</i>
                             </div>
                         </div>
 
@@ -185,7 +187,7 @@ const Qualification = () => {
                             <span className="qualification__rounder"></span>
                             <span className="qualification__line"></span>
                         </div>
-                    </div>
+                    </div>  */}
 
                 </div>
             </div>

@@ -44,6 +44,30 @@
     margin-bottom: var(--mb-2-5);
 }
 
+
+/*=============== DARK THEME STYLES ===============*/
+.dark-theme .about__title {
+    color: #fff;
+}
+
+.dark-theme .about__icon {
+    color: #33ccff;
+}
+
+.dark-theme .about__box {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #00000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+}
+
+.dark-theme .about__subtitle {
+    color: #fff;
+}
+.dark-theme .about__description {
+    color: #ccc;
+}
+
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {

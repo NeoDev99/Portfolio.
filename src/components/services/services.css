@@ -11,16 +11,12 @@
     background-color: var(--container-color);
     padding: 5rem 0 2rem 2.5rem;    /* padding: 20px */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
     /* transition: background 0.3s ease; /* Smooth transition for background */
 }
 
-/*
 .services__content:hover {
     background-image: linear-gradient(to right, #33ccff, #ff99cc);
-    color: transparent; /* Hide text color, the color comes from the gradient 
 }
-*/
 
 .services__icon {
     display: block;
@@ -50,7 +46,7 @@
 }
 
 .services__button:hover .services__button-icon {
-    transform: translateX(00.25rem);
+    transform: translateX(0.25rem);
 }
 
 .services__modal {
@@ -69,6 +65,11 @@
     visibility: hidden;
     transition: .3s;
 }
+
+.servcies__modal-services {
+    display: flex;
+    align-items: center;
+  }
 
 .services__modal-content {
     width: 500px;
@@ -110,6 +111,7 @@
 .services__modal-icon {
     color: var(--title-color);
     font-size: 1.1rem;
+    margin-right: 1rem;
 }
 
 .services__modal-info {
@@ -121,6 +123,53 @@
     opacity: 1;
     visibility: visible;
 }
+
+
+/*=============== DARK THEME STYLES ===============*/
+.dark-theme .services__content {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #00000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+}
+
+.dark-theme .services__icon,
+.dark-theme .services__modal-icon,
+.dark-theme .services__button-icon,
+.dark-theme .services__button:hover {
+    color: #33ccff;
+}
+
+.dark-theme .services__title,
+.dark-theme .services__button {
+    color: #fff;
+}
+
+.dark-theme .services__content:hover {
+    background-image: none;
+}
+
+.dark-theme .services__modal-content {
+    color: #000;
+    background-color: #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+}
+
+.dark-theme .services__modal-close:hover {
+    color: red;
+}
+
+.dark-theme .services__modal-title {
+    color: #33ccff;
+}
+
+.dark-theme .services__modal-close,
+.dark-theme .services__modal-info,
+.dark-theme .services__modal-description {
+    color: #ccc;
+}
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */

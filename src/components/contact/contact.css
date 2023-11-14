@@ -107,6 +107,45 @@
     resize: none;
 }
 
+
+/*=============== DARK THEME STYLES ===============*/
+.dark-theme .contact__title,
+.dark-theme .contact__card-title {
+    color: #fff;
+}
+
+.dark-theme .contact__info {
+    color: #ccc;
+}
+
+.dark-theme .contact__content {
+    border-color: #33ccff;
+}
+
+.dark-theme .contact__card {
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #00000000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+}
+
+.dark-theme .contact__card-icon,
+.dark-theme .contact__button:hover,
+.dark-theme .contact__button-icon:hover {
+    color: #33ccff;
+}
+
+
+.dark-theme .contact__form {
+    color: #33ccff;
+}
+
+.dark-theme .contact__form-tag,
+.dark-theme .contact__form-input {
+    background-color: #333;
+}
+
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
