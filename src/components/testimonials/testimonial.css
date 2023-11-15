@@ -1,8 +1,55 @@
-.testimonial__container {
-    width: 750px;
-}
+/* testimonial.css */
 
-.testimonial__card {
-    background-color: var(--container-color);
-    
-}
+.testimonial {
+    position: relative;
+    overflow: hidden;
+    margin-top: 3rem; /* Add space above the component */
+    margin-bottom: 3rem; /* Add space below the component */
+  }
+  
+  .testimonial__container {
+    display: flex;
+    transition: transform 0.5s ease; /* Add smooth transition for the sliding effect */
+  }
+  
+  .testimonial__card {
+    flex: 0 0 100%; /* Each testimonial takes the full width of the container */
+    box-sizing: border-box;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.5s ease; /* Add smooth transition for card animations */
+  }
+  
+  /* Active card styling */
+  .testimonial__card.active {
+    transform: scale(1.1); /* Example: Slightly scale up the active card */
+  }
+  
+  .testimonial__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial__controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  
+  .testimonial__controls button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Add specific styles for your buttons (Prev and Next) if needed */
+  .testimonial__controls button:hover {
+    color: #333; /* Change color on hover */
+  }
+  

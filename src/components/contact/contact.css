@@ -66,6 +66,7 @@
 
 .contact__form {
     width: 360px;
+    color: #0f969c;
 }
 
 .contact__form-div {
@@ -87,6 +88,11 @@
     border-radius: 0.75rem;
     padding: 1.5rem;
     z-index: 1;
+}
+
+.contact__form-input:focus {
+    border: 2px solid #0f969c;
+    outline: none;
 }
 
 .contact__form-tag {
@@ -135,6 +141,10 @@
     color: #33ccff;
 }
 
+.dark-theme .contact__form-input:focus {
+    border: 2px solid #33ccff;
+    outline: none;
+}
 
 .dark-theme .contact__form {
     color: #33ccff;

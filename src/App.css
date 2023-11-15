@@ -150,7 +150,7 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: var(--title-color);
+  background-color: #000;
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
@@ -163,6 +163,7 @@ img {
 
 .button__icon {
   margin-left: var(--mb-0-5);
+  color: #000;
 }
 
 .button--flex {
@@ -173,8 +174,15 @@ img {
 
 /*=============== DARK THEME STYLES ===============*/
 .dark-theme .button {
-  background-color: #fff;
-  color: #000;
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.075);
+  background-color: #00000000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+}
+
+.dark-theme .button:hover {
+  background-color: #0f969c;
+  color: #fff;
 }
 
 .dark-theme .button__icon {
