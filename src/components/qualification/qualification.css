@@ -11,7 +11,7 @@
 .qualification__button {
     font-size: var(--h3-font-size);
     font-weight: var(--font-medium);
-    color: var(--title-color);
+    color: #ccc;
     margin: 0 var(--mb-1);
     cursor: pointer;
 }

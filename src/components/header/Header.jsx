@@ -11,7 +11,7 @@ const Header = ({ toggleDarkTheme }) => {
 
     const toggleDarkMode = () => {
         setDarkTheme(!darkTheme);
-        toggleDarkTheme(); // assuming you want to toggle the dark theme globally
+        toggleDarkTheme();
     };
 
     return (
@@ -19,7 +19,7 @@ const Header = ({ toggleDarkTheme }) => {
             <nav className="nav container">
 
                 <a href="index.html" className="nav__logo">
-                    <img src="/favicon.ico" alt="Logo" className="nav__logo-img" />
+                    <img src="../../assets/favicon.ico" alt="" className="nav__logo-img" />
                     NeoDev
                 </a>
 

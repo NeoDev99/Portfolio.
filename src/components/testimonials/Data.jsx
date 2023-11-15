@@ -6,22 +6,22 @@ export const Data = [
     {
         id: 1,
         image: Image1,
-        title: "Harold Thotse",
+        title: "Harold Thotse - Project Manager",
         description:
-        "A really good job, all aspects of the project were followed step by step and with good results.",
+        "Incredible work! Neo meticulously followed every project detail, delivering outstanding results at every step. A true professional.",
     },
     {
         id: 2,
         image: Image2,
-        title: "Matilda Matjeakgang",
+        title: "Matilda Matjeakgang - Design Head",
         description:
-        "A really good job, all aspects of the project were followed step by step and with good results.",
+        "Neo is a coding wizard! Their technical proficiency and problem-solving abilities exceeded our expectations. A valuable asset for any development project.",
     },
     {
         id: 3,
         image: Image3,
-        title: "Vusimuzi Mashaba",
+        title: "Vusimuzi Mashaba - Lead Developer",
         description:
-        "A really good job, all aspects of the project were followed step by step and with good results.",
+        "Neo is a coding maestro! Their technical prowess ensured a flawless project journey. Highly skilled and reliable for complex development tasks.",
     },
 ];

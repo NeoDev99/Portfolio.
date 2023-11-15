@@ -106,6 +106,10 @@
         transition: .3s;
     }
 
+    .dark-theme .nav__menu {
+        background-color: #333;
+    }
+
     /* Show Menu */
     .show-menu {
         bottom: 0;
@@ -132,11 +136,11 @@
         bottom: .5rem;
         font-size: 1.5rem;
         cursor: pointer;
-        color: var(--title-color);
+        color: red;
     }
 
     .nav__close:hover {
-        color: var(--title-color-dark);
+        color: darkred;
     }
 
     .nav__toggle {
@@ -150,6 +154,9 @@
         display: block;
     }
 
+    .nav__logo-img {
+        display: none;
+    }
 }
 
 /* For small devices */
