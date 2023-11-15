@@ -18,10 +18,12 @@
 .home__social-icon {
     font-size: 1.25rem;
     color: var(--title-color);
+    transition: transform 0.3s ease;
 }
 
 .home__social-icon:hover {
     color: #0f969c;
+    transform: scale(1.3);
 }
 
 .home__title {

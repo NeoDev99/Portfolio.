@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Social = () => {
   return (
@@ -15,11 +15,6 @@ const Social = () => {
             <i className="uil uil-github-alt"></i>
         </a>
 
-        {/* 
-        <a href="https://padlet.com/" className="home__social-icon" target="_blank" rel="noreferrer">
-            <i className="uil uil-twitter-alt"></i>
-        </a>
-        */}
     </div>
   )
 }

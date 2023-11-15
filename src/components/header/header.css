@@ -46,7 +46,12 @@
     align-items: center;
     font-size: var(--small-font-size);
     color: var(--title-hover-light);
-    font-weight: var(--font-medium); 
+    font-weight: var(--font-medium);
+    transition: transform 0.3s ease;
+}
+
+.nav__link:not(.active-link):hover {
+  transform: scale(1.1);
 }
 
 .active-link,

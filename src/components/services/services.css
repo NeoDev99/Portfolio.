@@ -87,6 +87,10 @@
     color: var(--title-color);
 }
 
+.services__modal-close:hover {
+    color: red;
+}
+
 .services__modal-title,
 .services__modal-description {
     text-align: center;
