@@ -31,8 +31,7 @@ const Services = () => {
 
                     <h3 className="services__modal-title">CV Creation</h3>
                     <p className="services__modal-description">
-                    Service with more than 8 months of experience. 
-                    Providing quality work to clients and companies.
+                      Keep your CV well-organized with clear headings and bullet points.
                     </p>
 
                     <ul className="services__modal-services grid">

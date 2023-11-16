@@ -11,7 +11,7 @@
     background-color: var(--container-color);
     padding: 5rem 0 2rem 2.5rem;    /* padding: 20px */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* transition: background 0.3s ease; /* Smooth transition for background */
+    transition: background 0.3s ease; /* Smooth transition for background */
 }
 
 .services__content:hover {
