@@ -37,27 +37,27 @@ const Services = () => {
                     <ul className="services__modal-services grid">
                       <li className="servcies__modal-services">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">I develop the user interface.</p>
+                        <p className="services__modal-info">Tailored Content Creation</p>
                       </li>
 
                       <li className="servcies__modal-services">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Web page development.</p>
+                        <p className="services__modal-info">Strategic Formatting and Design</p>
                       </li>
 
                       <li className="servcies__modal-services">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">I create UX element interactions.</p>
+                        <p className="services__modal-info">Keyword Optimization</p>
                       </li>
 
                       <li className="servcies__modal-services">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">I position your company brand.</p>
+                        <p className="services__modal-info">Quantifiable Achievements</p>
                       </li>
 
                       <li className="servcies__modal-services">
                         <i className="uil uil-check-circle services__modal-icon"></i>
-                        <p className="services__modal-info">Design and mockups of products for companies.</p>
+                        <p className="services__modal-info">Continuous Feedback and Revisions</p>
                       </li>
                     </ul>
 
