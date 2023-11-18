@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { projectsData } from './Data';
 import { projectsNav } from './Data';
-import WorkItems from './WorkItems';
+import ProjectCard from './ProjectCard';
 
 const Works = () => {
     const [item, setItem] = useState({ name: 'all'});
@@ -44,7 +44,7 @@ const Works = () => {
 
         <div className="work__container container grid">
             {projects.map((item) => {
-                return <WorkItems item={item} key={item.id} />;
+                return <ProjectCard item={item} key={item.id} />;
             })}
         </div>
 
@@ -53,3 +53,4 @@ const Works = () => {
 };
 
 export default Works;
+
