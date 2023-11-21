@@ -2,7 +2,7 @@
 
 Welcome to my portfolio! Explore my projects and skills below.
 
-![My Portfolio.](myself/profile.jpg)
+![My Portfolio.](https://github.com/UmbrellaSkiies/Portfolio/blob/main/src/assets/work3.png)
 
 ## Projects
 
