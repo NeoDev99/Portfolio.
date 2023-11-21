@@ -2,6 +2,8 @@
 
 Welcome to my portfolio! Explore my projects and skills below.
 
+![My Portfolio.](myself/profile.jpg)
+
 ## Projects
 
 ### Project 1: [Project Name]
