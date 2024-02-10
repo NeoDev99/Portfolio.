@@ -1,0 +1,91 @@
+.testimonial {
+  position: relative;
+  overflow: hidden;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  max-width: 700px;
+}
+
+.testimonial__container {
+  display: flex;
+  transition: transform 0.5s ease;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.testimonial__card {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  transition: transform 0.5s ease;
+}
+
+.testimonial__name {
+  color: #0f969c;
+}
+
+.testimonial__card.active {
+  transform: scale(1.1); 
+}
+
+.testimonial__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.testimonial__controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.testimonial__controls button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  color: #333;
+}
+
+.testimonial__controls button:hover {
+  color: #0f969c;
+}
+
+
+/*=============== DARK THEME STYLES ===============*/
+.dark-theme .services__content {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #00000000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.50);
+}
+
+.dark-theme .testimonial__controls button:hover,
+.dark-theme .testimonial__card:hover {
+  color: #fff;
+}
+
+.dark-theme .testimonial__card,
+.dark-theme .testimonial__controls button {
+  color: #ccc;
+}
+
+.dark-theme .testimonial__name {
+  color: #33ccff;
+}
+
+
+/*=============== MEDIA QUERIES ===============*/
+@media screen and (max-width: 600px) {
+  .testimonial__card {
+    font-size: 10px;
+  }
+}
