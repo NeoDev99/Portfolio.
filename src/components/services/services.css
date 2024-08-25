@@ -15,7 +15,7 @@
 }
 
 .services__content:hover {
-    background-image: linear-gradient(to right, #33ccff, #ff99cc);
+    background-image: linear-gradient(to right, #33ccff75, #0f959c7d);
 }
 
 .services__icon {

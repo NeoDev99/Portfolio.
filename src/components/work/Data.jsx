@@ -11,8 +11,8 @@ export const projectsData = [
         description: "Welcome to my portfolio! Explore my projects and skills below.",
         image: Work1,
         category: "web",
-        gitUrl: "/",
-        previewUrl: "/",
+        gitUrl: "https://github.com/UmbrellaSkiies/Portfolio",
+        previewUrl: "https://example.com/view",
     },
     {
         id: 2,
@@ -20,8 +20,8 @@ export const projectsData = [
         description: "Welcome to our e-commerce store, where you can discover a wide range of products and make secure purchases.",
         image: Work2,
         category: "web",
-        gitUrl: "/",
-        previewUrl: "/",
+        gitUrl: "https://github.com/UmbrellaSkiies/Next-Ecommerce-Store",
+        previewUrl: "https://example.com/view",
     },
     {
         id: 3,
@@ -29,8 +29,8 @@ export const projectsData = [
         description: "This project is a Next.js-based admin dashboard content management system (CMS) for managing your web application's content efficiently.",
         image: Work3,
         category: "web",
-        gitUrl: "/",
-        previewUrl: "/",
+        gitUrl: "https://github.com/UmbrellaSkiies/nextauth-admin-dashboard",
+        previewUrl: "https://example.com/view",
     },
     {
         id: 4,
@@ -38,8 +38,8 @@ export const projectsData = [
         description: "This is a simple image gallery web application built using the MERN (MongoDB, Express.js, React, Node.js) stack.",
         image: Work4,
         category: "app",
-        gitUrl: "/",
-        previewUrl: "/",
+        gitUrl: "https://github.com/UmbrellaSkiies/Image-Gallery",
+        previewUrl: "https://example.com/view",
     },
     {
         id: 5,
@@ -47,8 +47,8 @@ export const projectsData = [
         description: "Project 5 description",
         image: Work5,
         category: "design",
-        gitUrl: "/",
-        previewUrl: "/",
+        gitUrl: "https://example.com/code",
+        previewUrl: "https://example.com/view",
     },
 ];
 
